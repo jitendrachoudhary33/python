@@ -99,4 +99,34 @@ print(a.title())
 print(a.swapcase())
 # Task=20
 a="Python is a programming language"
-print(a in "Python")
+b="python" in a 
+c="programming" in a
+d="java" in a
+e="language" in a
+print(b,"\n",c,"\n",d,"\n",e,)
+# Task=21
+a="Python is a programming language"
+b=a.find("python")
+c=a.find("programming")
+d=a.find("language")
+e=a.find("java")
+print(b,"\n",c,"\n",d,"\n",e,)
+# Task=22
+a="Python is a programming language"
+b=a.index("Python")
+c=a.index("programming")
+d=a.index("language")
+#e=a.index("java")
+print(b,"\n",c,"\n",d,"\n",e,)
+# Task=23
+a="banana"
+b=a.count("a")
+c=a.count("b")
+d=a.count("n")
+print(b,"\n",c,"\n",d,)
+# Task=24
+file_name="student_notes.pdf"
+a=file_name.startswith("student")
+b=file_name.endswith(".pdf")
+c=file_name.endswith(".txt")
+print(a,"\n",b,"\n",c)
