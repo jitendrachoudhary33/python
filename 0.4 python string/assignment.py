@@ -129,4 +129,72 @@ file_name="student_notes.pdf"
 a=file_name.startswith("student")
 b=file_name.endswith(".pdf")
 c=file_name.endswith(".txt")
-print(a,"\n",b,"\n",c)
+print(a,"\n",b,"\n",)
+# Task=25
+text="I am learning Java"
+b=text.replace("Java","Python")
+print(b)
+# Task=26
+text="apple apple apple"
+b=text.replace("apple","mango")
+print(b)
+# Task=27
+text="apple apple apple"
+b=text.replace("apple","mango",1)
+print(b)
+# Task=28
+text="python"
+b=text.upper()
+print(text)
+print(b)
+# Task=29
+text=" Python Programming "
+b=text.strip()
+c=text.lstrip()
+d=text.rstrip()
+print(b,"\n",c,"\n",d)
+# Task=30
+name = input("Enter your name:")
+name = name.strip()
+print(name)
+# Task=31
+text="Python is easy to learn"
+print(text.split())
+# Task=32
+fruits="apple,banana,mango,orange"
+a=fruits.split()
+print(a)
+# Task=33
+words=["Python","is","easy"]
+a=" ".join(words)
+print(a)
+# Task=34
+words=["Python","is","easy"]
+a="_".join(words)
+print(a)
+# Task=35
+name="jitesh"
+age=19
+city="alwar"
+a= f"My name is {name}. I am {age} years old. I am from {city}"
+print(a)
+# Task=36
+a=10
+b=20
+c=a+b
+d=f"The Sum is {c}."
+print(d)
+# Task=37
+# A
+text="python"
+# print(text[20])
+ # B
+text = "Python"
+b= "J"+text[1:]
+print(b)
+# C
+age = 20
+print("Age: " + str(age))
+# D
+text = "Python"
+print(text.find("Java"))

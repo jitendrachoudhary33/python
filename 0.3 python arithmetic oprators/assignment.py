@@ -11,19 +11,19 @@ b=8
 # Task 2
 a=6
 b=4.5
-#print(a+b)
-#print(a*b)
-#print(a/b)
-#print(a//b)
-#print(a%b)
-#print(a**b)
+print(a+b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
 
 # Task 3
 html_marks=200
 python_marks=250
 css_marks=300
-#print(html_marks+python_marks+css_marks)
-#print((html_marks+python_marks+css_marks)/2)
+print(html_marks+python_marks+css_marks)
+print((html_marks+python_marks+css_marks)/2)
 
 # Task 4
 price=2500
