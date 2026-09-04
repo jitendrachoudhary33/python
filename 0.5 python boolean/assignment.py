@@ -1,10 +1,10 @@
 # Task=25
-a=45
-b=(a>10 and a<50)
+num=int(input("enter a no.:"))
+b=(num>10 and num<50)
 print(b)
 
 # Task=26
-a=39
+a=int(input("enter any number :"))
 b=(a<10 or a>100)
 print(b)
 
