@@ -44,8 +44,34 @@
 # month = ("09")
 # year = 2026
 # print(date,month,year,sep="_" )
-Number = int(input("Enter any Number :"))
-if Number%2==0  :
-    print("Even Number")
-if Number%2!=0  :
-    print("Odd Number")
+# Number = int(input("Enter any Number :"))
+# if Number%2==0  :
+#     print("Even Number")
+# if Number%2!=0  :
+#     print("Odd Number")
+# name = input("Name:")
+# lab = input("lab:")
+# model = input("model:")
+# quantity = int(input("Quantity:"))
+# price = int(input("Price:"))
+# total_price = (quantity * price)
+# print(total_price)
+
+# First_name,Last_name = input("Enter your first and last name :").split()
+# print(First_name)
+# print(Last_name)
+
+# name = input("enter your name :")
+# age = input("enter your age :")
+# city = input("enter your city :")
+# print(name, end=" ")
+# print(age, end=" ")
+# print(city )
+# name = "rahul"
+# a = (f"hello {name}")
+# print(a)
+
+
+
+
+
