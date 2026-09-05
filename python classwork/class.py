@@ -71,6 +71,35 @@
 # a = (f"hello {name}")
 # print(a)
 
+# marks = int(input("Enter your marks:"))
+
+
+# if marks<33:
+#     print("FAIL!!")
+# if marks>33 :
+#      print("PASS!!")
+#      if marks>=90 and marks<=95:
+#         print("Grade A") 
+#      if marks>95 and marks<100:
+#         print("Grade A+")
+#      if marks>33 and marks<50:
+#         print("Grade D")
+#      if marks >=50 and marks<75:
+#         print("Grade C")
+#      if marks>=75 and marks<90:
+#         print("Grade B")
+
+
+is_indian = input("Are you INDIAN? YES or NO:")
+
+if is_indian == "YES":
+   print("Welcome to our team!!")
+else :
+   print("TATA !!")
+
+
+
+
 
 
 
