@@ -90,16 +90,22 @@
 #         print("Grade B")
 
 
-is_indian = input("Are you INDIAN? YES or NO:")
+# is_indian = input("Are you INDIAN? YES or NO:")
 
-if is_indian == "YES":
-   print("Welcome to our team!!")
-else :
-   print("TATA !!")
+# if is_indian == "YES":
+#    print("Welcome to our team!!")
+# else :
+#    print("TATA !!")
+# product = input("Enter product name :")
+# price = float(input("Enter price:"))
+# quantity = int(input("Enter quantity:"))
 
-
-
-
+# print(f"Product: {product}")
+# print(f"Price {price}")
+# print(f"Quantity {quantity}")
+# print(f"Total 😎 {price*quantity}")
+a,b = int,input("Enter two numbers:").split()
+print(a+b)
 
 
 
