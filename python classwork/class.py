@@ -74,20 +74,7 @@
 # marks = int(input("Enter your marks:"))
 
 
-# if marks<33:
-#     print("FAIL!!")
-# if marks>33 :
-#      print("PASS!!")
-#      if marks>=90 and marks<=95:
-#         print("Grade A") 
-#      if marks>95 and marks<100:
-#         print("Grade A+")
-#      if marks>33 and marks<50:
-#         print("Grade D")
-#      if marks >=50 and marks<75:
-#         print("Grade C")
-#      if marks>=75 and marks<90:
-#         print("Grade B")
+
 
 
 # is_indian = input("Are you INDIAN? YES or NO:")
@@ -104,9 +91,27 @@
 # print(f"Price {price}")
 # print(f"Quantity {quantity}")
 # print(f"Total 😎 {price*quantity}")
-a,b = int,input("Enter two numbers:").split()
-print(a+b)
+# a,b = int,input("Enter two numbers:").split()
+# print(a+b)
 
 
+operation = int(input(
+"choices:,"
+"1.addition"
+"2.substraction"
+"3.multiplication"
+"4.division""\n"
+"Enter opration number:"))
 
+a,b = map(int,input("Enter two numbers:").split())
+if operation ==1 :
+    print(f"addition is = {a+b}")
+elif 2:
+    print(f"substraction is = {a-b}")
+elif 3:
+    print(f"multiplication is = {a*b}")
+elif 4:
+    print(f"division is = {a/b}")
+else:
+    print("ENTER VALID OPRATION!!")
 
