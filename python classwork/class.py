@@ -95,23 +95,26 @@
 # print(a+b)
 
 
-operation = int(input(
-"choices:,"
-"1.addition"
-"2.substraction"
-"3.multiplication"
-"4.division""\n"
-"Enter opration number:"))
+# operation = int(input(
+# "choices:,"
+# "1.addition"
+# "2.substraction"
+# "3.multiplication"
+# "4.division""\n"
+# "Enter opration number:"))
 
-a,b = map(int,input("Enter two numbers:").split())
-if operation ==1 :
-    print(f"addition is = {a+b}")
-elif 2:
-    print(f"substraction is = {a-b}")
-elif 3:
-    print(f"multiplication is = {a*b}")
-elif 4:
-    print(f"division is = {a/b}")
-else:
-    print("ENTER VALID OPRATION!!")
+# a,b = map(int,input("Enter two numbers:").split())
+# if operation ==1 :
+#     print(f"addition is = {a+b}")
+# elif 2:
+#     print(f"substraction is = {a-b}")
+# elif 3:
+#     print(f"multiplication is = {a*b}")
+# elif 4:
+#     print(f"division is = {a/b}")
+# else:
+#     print("ENTER VALID OPRATION!!")
+
+
+
 
