@@ -150,4 +150,73 @@
 # else :
 #     print("Invalid input")
 
+# # Question = 14
+# cost_price = int(input("Cost price:"))
+# selling_price = int(input("Selling price:"))
+# if cost_price > selling_price :
+#     print(f"loss = {cost_price - selling_price}")
+# elif selling_price > cost_price :
+#     print(f"profit = { selling_price - cost_price}")
+# else :
+#     print("Invalid data")
+
+# # Question = 15
+# cost_price = int(input("Cost price:"))
+# selling_price = int(input("Selling price:"))
+# if cost_price < 0 or selling_price < 0 :
+#     print("Invalid data")
+# elif cost_price > selling_price :
+#     print(f"loss = {int(cost_price - selling_price) / cost_price * 100} %")
+# elif selling_price > cost_price :
+#     print(f"profit = {(selling_price - cost_price) / cost_price * 100} %")
+
+# # Question = 16 
+# unit = int(input("Enter your unit :"))
+# if unit > 0 and unit <= 100 :
+#     print(f"Bill is = {unit * 5 }")
+# elif unit > 100 and unit <= 200 :
+#     print(f"Bill is = {(unit - 100) * 7 + 100 * 5}")
+# elif unit > 200  :
+#     print(f"Bill is = {(unit - 200) * 10 + 100 * 7 + 100 * 5}")
+
+# Question = 17 
+# oprater = int(input("1.Addition:\n2.Substraction:\n3.Mulitplication:\n4.Division:\nEnter operater ::"))
+# a = int(input("Enter first number :"))
+# b = int(input("Enter second number :"))
+
+# a = int(input(Enter first no.-  ))
+# b = int(input(Enter second no.-  ))
+a = int(input("Enter a first number"))
+op = input("Enter opt(+,-,*,/)")
+b = int(input("enter second num"))
+if op == "+" :
+    print("Answer:",a+b)
+elif op == "-":
+    print("Answer:",a-b)
+elif op == "*":
+    print("Answer:",a*b)
+
+
+
+
+
+
+
+
+
+
+# # Question = 19
+# a = int(input("Enter  a number :"))
+# if a < 0 :
+#     print("Negative")
+# elif a >= 0 and a <= 10 :
+#     print("Number is between 0 and 10")
+# elif a >= 11 and a <= 50 :
+#     print("Number is between 11 and 50")
+# elif a >= 51 and a <= 100 :
+#     print("Number is between 51 and 100")
+# else :
+#     print("Above 100")
+
+# Question = 20
 
