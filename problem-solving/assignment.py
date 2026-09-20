@@ -186,23 +186,32 @@
 
 # a = int(input(Enter first no.-  ))
 # b = int(input(Enter second no.-  ))
-a = int(input("Enter a first number"))
-op = input("Enter opt(+,-,*,/)")
-b = int(input("enter second num"))
-if op == "+" :
-    print("Answer:",a+b)
-elif op == "-":
-    print("Answer:",a-b)
-elif op == "*":
-    print("Answer:",a*b)
 
+# # Question = 18
+# temp = int(input("Enter the tempratue in degree celcius :"))
+# if temp > 35 :
+#       print("Hot")
+# elif 25 < temp <= 35 :
+#       print("Normal")
+# elif 16 < temp <= 25 :
+#       print("Cold")
+# elif 0 < temp <= 15 :
+#       print("Very cold")
+# else :
+#       print("Freezing")
 
-
-
-
-
-
-
+# # Question = 19 
+# num = int(input("Enter a number :"))
+# if num > 100 :
+#       print("Above 100")
+# elif 50 < num <= 100 :
+#       print("Number is between 50 and 100")
+# elif 10 < num <= 50 :
+#       print("Number is between 10 and 50")
+# elif 0 < num <= 10 :
+#       print("Number is between 0 and 10")
+# else :
+#       print("Negative number")
 
 
 # # Question = 19
@@ -218,5 +227,122 @@ elif op == "*":
 # else :
 #     print("Above 100")
 
-# Question = 20
+# # Question = 20
+# side1 = int(input("Enter first side of triangle :"))
+# side2 = int(input("Enter second side of triangle :"))
+# side3 = int(input("Enter third side of tringle :"))
+# if side1+side2==side3 and side3+side2==side1 and side1+side3==side1 :
+#       print("Valid triangle")
+# else :
+#       print("Invalid triangle")
+
+# # Question = 21
+# side1 = int(input("Enter first side of triangle :"))
+# side2 = int(input("Enter second side of triangle :"))
+# side3 = int(input("Enter third side of tringle :"))
+# if side1==side2==side3 :
+#       print("Equilateral triangle")
+# elif side1==side2!=side3 or side3==side2!=side1 or side1==side3!=side1 :
+#       print("Issoscales triangle")
+# else :
+#       print("Scalene triangle")
+
+# # Question = 22
+# a = int(input("Account balance :"))
+# b = int(input("Withdrawl amount :"))
+# if b < 0 :
+#       print("Invalid amount")
+# elif b > a :
+#       print("Insufficient amount")
+# elif  b % 100 != 0  :
+#       print("Withdrawl amount must be divisible by 100") 
+# elif  b >= a - 500 :
+#       print("Not enough money")
+# else :
+#       print(f"Withdrawl successful \n Remaining balance : {a-b} ")
+
+
+# # Question = 23
+# username = input("Enter your username:").strip()
+# password = input("Enter your password:").strip()
+# if username == ("admin") :
+#     if password == ("python123") :
+#         print("Login successful 😊")
+#     else :
+#         print("Wrong password ")
+# else:
+#     print("User not found ")
+
+
+# # Question = 24                          #################DDD##########################3
+# purchase_amount = int(input("Enter your purchasing amount :"))
+# if purchase_amount >= 5000 :
+#     print("Discount : 20%")
+#     discount_amount = purchase_amount*0.2 
+#     print(f"Discount amount :₹{discount_amount} ")
+#     print(f"Final amount :₹{purchase_amount-discount_amount}")
+# elif purchase_amount >= 2000 and purchase_amount < 5000:
+#     print("Discount : 15%")
+#     discount_amount = purchase_amount*0.15 
+#     print(f"Discount amount :₹{discount_amount} ")
+#     print(f"Final amount :₹{purchase_amount-discount_amount}")
+# elif purchase_amount >= 1000 and purchase_amount < 2000 :
+#     print("Discount : 10%")
+#     discount_amount = purchase_amount* 0.1
+#     print(f"Discount amount :₹{discount_amount} ")
+#     print(f"Final amount :₹{purchase_amount-discount_amount}")
+# elif purchase_amount >= 500 and purchase_amount < 1000 :
+#     print("Discount : 5%")
+#     discount_amount = purchase_amount* 0.05
+#     print(f"Discount amount :₹{discount_amount} ")
+#     print(f"Final amount :₹{purchase_amount-discount_amount}")
+# elif purchase_amount >= 0 and purchase_amount < 500:
+#     print("Discount : 0%")
+#     discount_amount = purchase_amount* 0
+#     print(f"Discount amount :₹{discount_amount} ")
+#     print(f"Final amount :₹{purchase_amount-discount_amount}")
+# else :
+#     print("Invalid data ")
+
+
+# # Question = 25 
+# marks1 = float(input("Enter your first subject marks :"))
+# marks2 = float(input("Enter your second subject marks :"))
+# marks3 = float(input("Enter your third subject marks :"))
+# if marks1 >= 35 and marks2 >= 35 and marks3 >= 35 :
+#     print(f"Average : {(marks1 + marks2 + marks3) / 3}")
+#     if marks1 and marks2 and marks3 >= 75 and marks1 and marks2 and marks3 <= 100 :
+#         print(f"Distinction")
+#     elif marks1 and marks2 and marks3 >= 60 and marks1 and marks2 and marks3 < 75 :
+#         print(f"First class")
+#     elif marks1 and marks2 and marks3 >= 50 and marks1 and marks2 and marks3 < 60 :
+#         print(f"Second class")
+#     elif marks1 and marks2 and marks3 >= 35 and marks1 and marks2 and marks3 < 50 :
+#         print(f"Pass !!")
+# else :
+#     print("Fail !!")
+
+
+# # Question = 26
+# date = int(input("Enter date :"))
+# month = int(input("Enter month :"))
+# year = int(input("Enter year :"))
+# if month == 46911 and date >=31:
+#         print(f"{date}/{month}/{year} is not valid ")
+# elif year % 4 == 0 and year % 100 != 0 or year % 400 == 0 and month == 2 and date <= 29 :
+#       print(f"{date}/{month}/{year} is valid ")
+# elif year % 4 == 0 and year % 100 == 0 or year % 400 != 0 and month == 2 and date >=28 :
+#       print(f"{date}/{month}/{year} is not valid ")
+# elif month == 2 and date <=29 :
+#         print(f"{date}/{month}/{year} is valid ")
+# else :
+#     print(f"{date}/{month}/{year} is not valid ")
+
+
+# Question = 27
+
+
+
+
+
 

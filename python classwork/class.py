@@ -71,7 +71,7 @@
 # a = (f"hello {name}")
 # print(a)
 
-# marks = int(input("Enter your marks:"))
+# percentage = int(input("Enter your percentage:"))
 
 
 
@@ -116,7 +116,111 @@
 #     print("ENTER VALID OPRATION!!")
 
 
-num = int(input("Enter a number :"))
-for i in range(1,11):
-        print(f"{num} * {i} = {num * i}")
+# #############################################
+# name = input("Enter a string :").strip().upper()
+# length=len(name)-1
+# sum = ""
+# for number in range(length,-1,-1):
+#     sum = sum + name[number]
+# if name == sum :
+#     print(f"{name} is pallindrome")
+# else :
+#     print(f"{name} is not pallindrome")s
+
+
+# for i in range(4): 
+#     for j in range(4):
+#         print("*",end="")
+#     print()
+
+# for i in range (4):
+#     print("*"*4)
+
+
+# for i in range (5):
+#     for j in range(1,i+1):
+#         print("*", end="")
+#     print()
+
+
+# for i in range (5,0,-1):
+#     for j in range(i+1,1,-1):
+#         print("*", end="")
+#     print()
+
+
+# for i in range (5):
+#     for j in range(5,i,-1):
+#         print("*", end="")
+#     print()
+
+
+# for i in range (1,6):
+#     for j in range (1,6-i):
+#           print(" ",end=" ")
+#     for k in range (1,i+1):
+#             print("*", end=" ")
+#     print()
+
+
+# for i in range(5):
+#       for j in range(i):
+#             print(" ",end="")
+#       for k in range(5-i):
+#             print("*",end="")
+#       print()
+      
+
+# for i in range(1,6):
+#     for j in range(6-i):
+#         print(" ",end=" ")
+#     for k in range(2*i-1):
+#         print("*",end=" ")
+#     print()
+
+
+# for i in range(5):
+#     for j in range(6-i):
+#         print(" ",end=" ")
+#     for k in range(i+1):
+#         print("*",end=" ")
+#     for l in range(i):
+#         print("*",end=" ")
+#     print()
+
+# for i in range (1,6):
+#     for j in range (1,6-i):
+#         print(" " , end="")
+#     for k in range (0,2*i-1,):
+#         print("*",end="  ")
+#     print()
+
+
+# total = 0
+# for i in range (1,6):
+#     marks = int(input("Enter marks :"))
+#     if marks < 35 :
+#         print("Fail!!")
+#         passed = False
+#     if marks >= 35 :
+#         passed = True
+#         total += marks
+#     percentage = total / 5 
+# if percentage >=100 and percentage <= 90 :
+#         grade = "A+"
+#     elif percentage >=80 and percentage < 90 :
+#         grade = "A"
+#     elif percentage >= 70 and percentage < 80 :
+#         grade = "B"
+#     elif percentage >= 50 and percentage < 70 :
+#         grade = "C"
+#     else :
+#         grade = "D"
+
+# if passed == True :
+#     print(f"Total :{total}")
+#     print(f"Grade :{grade}")
+#     print(f"Percentage : {percentage}")
+    
+
 
