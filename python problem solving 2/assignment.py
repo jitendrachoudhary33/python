@@ -157,7 +157,7 @@ else:
 
 # Test  1:
 # price = 2500
-# Discount = 2500 × 20 / 100 = 500
+# Discount = 2500 × 0.2 = 500
 # Final price = 2500 - 500 = 2000
 # Output: 2000
 
@@ -170,7 +170,7 @@ else:
 ##Code 
 price = float(input("Enter item price: "))
 if price >= 2000:
-    discount = price * 20 / 100
+    discount = price * 0.20
     final_price = price - discount
 else:
     final_price = price
