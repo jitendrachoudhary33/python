@@ -130,9 +130,9 @@ print("Largest number:", largest)
 ## Code
 age = int(input("Enter your age: "))
 if age >= 18:
-    print("Eligible to vote")
+    print("Eligible")
 else:
-    print("Not eligible to vote")
+    print("Not eligible ")
 
 
 
@@ -221,6 +221,6 @@ mark3 = float(input("Enter marks for subject 3: "))
 average = (mark1 + mark2 + mark3) / 3
 print("Average:", average)
 if average >= 40:
-    print("Pass")
+    print("Pass!!")
 else:
-    print("Fail")
+    print("Fail!!")
