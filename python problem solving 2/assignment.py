@@ -10,17 +10,16 @@
 # Calculate sum = a + b
 # Print the sum
 # Stop
-# Dry Run
 
 # Test  1 ;
-# a = 10, b = 20
-# sum = 10 + 20 = 30
-# Output: 30
+# a = 20, b = 30
+# sum = 20 + 30 = 50
+# Output: 50
 
 # Test  2 ;
-# a = 5, b = 7
-# sum = 5 + 7 = 12
-# Output: 12
+# a = 7, b = 7
+# sum = 7 + 7 = 14
+# Output: 14
  
 ## Code
 a = int(input("Enter first number: "))
@@ -44,16 +43,15 @@ print("Sum:", sum)
 # If the remainder is 0, print Even
 # Otherwise, print Odd
 # Stop
-# Dry Run
 
 # Test  1:
 # number = 10
-# 10 % 2 = 0
+# 14 % 2 = 0
 # Output: Even
 
 # Test  2:
 # number = 7
-# 7 % 2 = 1
+# 3 % 2 = 1
 # Output: Odd
 
 ## Code 
@@ -77,17 +75,16 @@ else:
 # Print the largest number
 # Stop
 
-# Dry Run
 
 # Test  1:
-# a = 10, b = 25, c = 15
-# Largest = 25
-# Output: 25
+# a = 20, b = 35, c = 25
+# Largest = 35
+# Output: 35
 
 # Test  2:
-# a = 50, b = 20, c = 40
-# Largest = 50
-# Output: 50
+# a = 90, b = 30, c = 10
+# Largest = 90
+# Output: 90
 
 ##Code 
 a = int(input("Enter first number: "))
@@ -114,16 +111,15 @@ print("Largest number:", largest)
 # If true, print Eligible to vote
 # Otherwise, print Not eligible to vote
 # Stop
-# Dry Run
 
 # Test  1:
-# age = 20
-# 20 >= 18 → True
+# age = 30
+# 30 >= 18 → True
 # Output: Eligible to vote
 
 # Test  2:
 # age = 16
-# 16 >= 18 → False
+# 13 >= 18 → False
 # Output: Not eligible to vote
 
 ## Code
@@ -152,13 +148,13 @@ else:
 # Print the final price
 # Stop
 
-# #Dry Run
+
 
 # Test  1:
-# price = 2500
-# Discount = 2500 × 0.2 = 500
-# Final price = 2500 - 500 = 2000
-# Output: 2000
+# price = 5700
+# Discount = 5700 × 0.2 = 1140
+# Final price = 5700 - 1140 = 4560
+# Output: 4560
 
 # Test  2:
 # price = 1500
@@ -192,7 +188,7 @@ print("Final price:", final_price)
 # Otherwise, print Fail
 # Stop
 
-# #Dry Run
+
 # Test  1:
 # Marks = 50, 60, 70
 # Average = (50 + 60 + 70) / 3
