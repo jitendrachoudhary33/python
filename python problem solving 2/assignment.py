@@ -12,12 +12,12 @@
 # Stop
 # Dry Run
 
-# Test Case 1 ;
+# Test  1 ;
 # a = 10, b = 20
 # sum = 10 + 20 = 30
 # Output: 30
 
-# Test Case 2 ;
+# Test  2 ;
 # a = 5, b = 7
 # sum = 5 + 7 = 12
 # Output: 12
@@ -46,12 +46,12 @@ print("Sum:", sum)
 # Stop
 # Dry Run
 
-# Test Case 1:
+# Test  1:
 # number = 10
 # 10 % 2 = 0
 # Output: Even
 
-# Test Case 2:
+# Test  2:
 # number = 7
 # 7 % 2 = 1
 # Output: Odd
@@ -80,12 +80,12 @@ else:
 
 # Dry Run
 
-# Test Case 1:
+# Test  1:
 # a = 10, b = 25, c = 15
 # Largest = 25
 # Output: 25
 
-# Test Case 2:
+# Test  2:
 # a = 50, b = 20, c = 40
 # Largest = 50
 # Output: 50
@@ -117,12 +117,12 @@ print("Largest number:", largest)
 # Stop
 # Dry Run
 
-# Test Case 1:
+# Test  1:
 # age = 20
 # 20 >= 18 → True
 # Output: Eligible to vote
 
-# Test Case 2:
+# Test  2:
 # age = 16
 # 16 >= 18 → False
 # Output: Not eligible to vote
@@ -155,13 +155,13 @@ else:
 
 # #Dry Run
 
-# Test Case 1:
+# Test  1:
 # price = 2500
 # Discount = 2500 × 20 / 100 = 500
 # Final price = 2500 - 500 = 2000
 # Output: 2000
 
-# Test Case 2:
+# Test  2:
 # price = 1500
 # 1500 < 2000 → No discount
 # Final price = 1500
@@ -194,7 +194,7 @@ print("Final price:", final_price)
 # Stop
 
 # #Dry Run
-# Test Case 1:
+# Test  1:
 # Marks = 50, 60, 70
 # Average = (50 + 60 + 70) / 3
 # Average = 180 / 3
@@ -204,7 +204,7 @@ print("Final price:", final_price)
 # Average: 60
 # Pass
 
-# Test Case 2:
+# Test  2:
 # Marks = 30, 35, 40
 # Average = (30 + 35 + 40) / 3
 # Average = 105 / 3
