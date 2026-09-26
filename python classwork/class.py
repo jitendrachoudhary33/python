@@ -223,4 +223,43 @@
 #     print(f"Percentage : {percentage}")
     
 
+###################################
+# number = int(input("Enter a number :"))
+# for i in range (1,number+1):
+#     for j in range (1,number+1):
+#         if j == 1 or j == number or i == number :
+#             print("*",end=" ") 
+#         elif i == (number//2 +1) and j == (number//2+1):
+#             print("*",end=" ")
+#         else :
+#             print(" ",end=" ")
+#     print()
 
+
+# number = int(input("Enter a number :"))
+# for i in range (1,number+1):
+#     for j in range (1,number+1):
+#         if j == 1 or j == number or i == number :
+#             print("*",end=" ") 
+#         elif i == (number//2 +1) and j == (number//2+1):
+#             print("*",end=" ")
+#         else :
+#             print(" ",end=" ")
+#     print()
+    
+
+# for i in range (1, 6) :
+#     for j in range(1,6-i):
+#         print("1",end=" ")
+#     for k in range (1) :
+#         print("*",end=" ")
+#     for l in range (1,4):
+#         # for m in range (1,):
+#         print("2",end=" ")
+
+#     print()
+
+
+            
+            
+        
