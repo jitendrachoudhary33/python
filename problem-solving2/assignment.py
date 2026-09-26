@@ -372,8 +372,8 @@
 
 
 ## Question = 18
-for i in range (1,8):
-    print()
+# for i in range (1,8):
+#     print()
  
 
     
