@@ -345,7 +345,9 @@
 #     print("Medium password.")
 
 # ## Question = 17
+# higest_marks = 0
 # for i in range (1,6):
+    
 #     name = (input(f"Enter name of student-{i} : ")).lower()
 #     marks = int(input(f"Enter marks of students-{i} :"))
 #     if 75 < marks <= 100 :
@@ -354,12 +356,14 @@
 #         print("B")
 #     else:
 #         print("fail")
+    
 #     count = count1 = 0
 #     for j in name :
 #         if j in "aeiou" :
 #             count += 1
 #         elif j in "bcdfghjklmnpqrstvwxyz" :
 #             count1 += 1
+
 #     print(f"Vowels in name is/are - :{count}"  )
 #     print(f"Total characters in name are - :{len(name)}")
 #     if count > count1 :
@@ -368,7 +372,12 @@
 #         print(f"consonents are more than vowel in this name ")
 #     else :
 #         print(f"vowel and consonents are equal :")
-#################################### maximum mark of student ##################################################
+#     if marks > higest_marks :
+#         higest_marks = marks
+# print(f"Highest marks : {higest_marks}")
+
+
+
 
 
 ## Question = 18
