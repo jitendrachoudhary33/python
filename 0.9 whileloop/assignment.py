@@ -171,4 +171,95 @@ while i <= 1 :
     i += 1
     
     
+## Question = 24
+string = input("Enter a number :")
+i = 0
+c = 0 
+while i < len(string) :
+    if string[i] == "a" :
+        c += 1
+    i += 1
+print(f"In string (a) occurs : {c} times")
+
+
+## Question = 25
+string = input("Enter a string :")
+i = 0
+c = 0
+while i < len(string) :
+    if chr(65) <= string[i] <= chr(94) :
+        c += 1
+    i += 1
+print(f"In string uppercase letter : {c}")
+
+
+## Question = 26
+i = 0 
+while i <= 2:
+    j = 0
+    print("*",end=" ")
+    i += 1 
+    while j <= 2 : 
+        print("*",end=" ") 
+        j += 1 
+    print()
+
+
+## Question = 27
+i = 0
+while i <= 3 :
+    print("*",end="")
+    j = 0 
+    i += 1
+    while j <= 4 :
+        print("*",end="")
+        j += 1 
+    print()
+
+
+## Question = 28
+i = 0
+while i <=  4 :
+    i += 1
+    j = 0
+    while j < i :
+        print("*",end=" ")
+        j += 1
+    print()
+
+
+## Question = 29
+i = 1
+while i <= 5 :
+    i += 1
+    j = 1
+    while j < i :
+        print(j ,end=" ")
+        j += 1
+    print()
+    
+
+## Question = 30
+i = 0
+while i <= 4 :
+    i += 1
+    j = 1
+    while j <=  10:
+        print(j*i , end=" ")
+        j += 1
+    print()
+
+
+## Question = 31
+num = int(input("Enter a number :"))
+i = 0
+while i < num :
+    i += 1
+    j = 1 
+    while j < i+1 :
+        print(j,end=" ")
+        j += 1
+    print()
+
+
 

@@ -269,7 +269,30 @@
 #     print(i*2)
 #    i += 1
 
+# string = input("Enter a string : ")
+# rstring = ""
+# i = len(string) - 1
+# while i >= 0 :
+#     rstring = rstring + string[i]
+#     i -= 1
+# if  string == rstring :
+#     print("pallindrome")
+# else :
+#     print("not pallindrome") 
 
 
 
+string = input("Enter a string :")
+i = 0
+j = len(string) - 1
+flag = True 
+while i < j :
+    if string[i] == string[j] :
+        i += 1
+        j -= 1
+        
+if flag == True :
+    print("pallindrme")
+if flag == False :
+    print("not pallindrome")
 
