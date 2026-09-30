@@ -197,9 +197,8 @@ print(f"In string uppercase letter : {c}")
 i = 0 
 while i <= 2:
     j = 0
-    print("*",end=" ")
     i += 1 
-    while j <= 2 : 
+    while j <= 3 : 
         print("*",end=" ") 
         j += 1 
     print()
@@ -208,10 +207,9 @@ while i <= 2:
 ## Question = 27
 i = 0
 while i <= 3 :
-    print("*",end="")
     j = 0 
     i += 1
-    while j <= 4 :
+    while j <= 5 :
         print("*",end="")
         j += 1 
     print()

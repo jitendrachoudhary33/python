@@ -282,17 +282,65 @@
 
 
 
-string = input("Enter a string :")
-i = 0
-j = len(string) - 1
-flag = True 
-while i < j :
-    if string[i] == string[j] :
-        i += 1
-        j -= 1
-        
-if flag == True :
-    print("pallindrme")
-if flag == False :
-    print("not pallindrome")
+# string = input("Enter a string :")
+# i = 0
+# j = len(string) - 1
+# flag = True 
+# while i < j :
+#     if string[i] == string[j] :
+#         i += 1
+#         j -= 1
+#     else:
+#         flag = False 
+#         i = j
+# if flag == True :
+#     print("pallindrme")
+# else :
+#     print("not pallindrome")
+
+
+# string = input("Enter a string :")
+# i = 0
+# j = len(string) - 1
+# flag = True 
+# while i < j and flag:
+#     if string[i] == string[j] :
+#         i += 1
+#         j -= 1
+#     else:
+#         flag = False 
+# if flag == True :
+#     print("pallindrme")
+# else :
+#     print("not pallindrome")
+
+
+
+
+
+# string = input("Enter a string :")
+# i = 0
+# j = len(string) - 1
+# flag = True 
+# while i < j :
+#     if string[i] == string[j] :
+#         i += 1
+#         j -= 1
+#     else:
+#         flag = False 
+#         i = j
+# if flag == True :
+#     print("pallindrme")
+# else :
+#     print("not pallindrome")
+
+num = 478
+while num > 0 :
+    digit = num % 10 
+    print(digit , end="")
+    num = num // 10
+
+
+
+
 
