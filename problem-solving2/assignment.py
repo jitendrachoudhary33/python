@@ -345,6 +345,7 @@
 #     print("Medium password.")
 
 # ## Question = 17
+
 # higest_marks = 0
 # for i in range (1,6):
     
@@ -378,11 +379,31 @@
 
 
 
-
-
 ## Question = 18
-# for i in range (1,8):
-#     print()
+day = 1
+amount = 0
+for i in range (7) :
+    print("Day:",day)
+    money1 = int(input("Deposite amount : "))
+    if money1 > 0 :
+        amount = amount + money1
+    elif money1 < 0 :
+        print(" Enter valid amount ")
+    money2 = int(input("Withdrawl amount : "))
+    if amount < 0 :
+            print("Insufficient balance")
+    elif money2 > 0 :
+        amount = amount - money2
+    else :
+        print("No money withdrawl")
+    day += 1
+print(f"Available amount : {amount}")
+if amount < 1000 :
+     print(f"Low Balance ")
+    
+
+    
+
  
 
     

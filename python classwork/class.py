@@ -334,13 +334,46 @@
 # else :
 #     print("not pallindrome")
 
-num = 478
-while num > 0 :
-    digit = num % 10 
-    print(digit , end="")
-    num = num // 10
+# num = 478
+# while num > 0 :
+#     digit = num % 10 
+#     print(digit , end="")
+#     num = num // 10
+
+# string = input("Enter a string :")
+# a = ""
+# for i in range(0, len(string)-1):
+#     if not string[i].isdigit():
+#         a += string[i]
+# print(a)
+
+
+# string = input("Enter a string :")
+# count = 0 
+# for i in string :
+#     if string[i].islower() :
+#         count += 1
+# print(count , "lowercase letter")
 
 
 
 
+operation = int(input("Enter operation :: \n 1) for addition : \n 2) for substraction : \n 3) for multiplication : \n 4) for division : \n Enter your choice:: "))
+while operation != 0 :
+    num1 = int(input("Enter first number :"))
+    num2 = int(input("Enter second number :"))
+
+    match operation :
+        case 1 :
+            print("Addition is :", num1 + num2 )
+        case 2 :
+            print("Substraction is :" , num1 - num2 )
+        case 3 :
+                print("Multiplication is :" , num1 * num2 )
+        case 4 :
+            print("Division is : " , num1 / num2 )
+        case _ :
+            print("Invalid oprator !!")
+    
+    break
 
