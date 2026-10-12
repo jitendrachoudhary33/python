@@ -358,22 +358,59 @@
 
 
 
-operation = int(input("Enter operation :: \n 1) for addition : \n 2) for substraction : \n 3) for multiplication : \n 4) for division : \n Enter your choice:: "))
-while operation != 0 :
-    num1 = int(input("Enter first number :"))
-    num2 = int(input("Enter second number :"))
+# operation = int(input("Enter operation :: \n 1) for addition : \n 2) for substraction : \n 3) for multiplication : \n 4) for division : \n Enter your choice:: "))
+# while operation != 0 :
+#     num1 = int(input("Enter first number :"))
+#     num2 = int(input("Enter second number :"))
 
-    match operation :
-        case 1 :
-            print("Addition is :", num1 + num2 )
-        case 2 :
-            print("Substraction is :" , num1 - num2 )
-        case 3 :
-                print("Multiplication is :" , num1 * num2 )
-        case 4 :
-            print("Division is : " , num1 / num2 )
-        case _ :
-            print("Invalid oprator !!")
+#     match operation :
+#         case 1 :
+#             print("Addition is :", num1 + num2 )
+#         case 2 :
+#             print("Substraction is :" , num1 - num2 )
+#         case 3 :
+#                 print("Multiplication is :" , num1 * num2 )
+#         case 4 :
+#             print("Division is : " , num1 / num2 )
+#         case _ :
+#             print("Invalid oprator !!")
     
-    break
+#     break
+
+
+# str = input("Enter a string : ").strip().lower()
+# c = 0 
+# flag = True 
+# for i in range (len(str)-1) :
+#     c += 1
+#     if str[i] == "o" :
+#         flag = False
+#         print("Found")
+#         print(c)    
+# if flag :
+#     print("Not found.")
+    
+
+
+# str = input("Enter a string : ").strip().lower()
+# i = 0 
+# flag = True
+# while i < len(str) :
+#     if str[i] == "o":
+#         flag = False
+#         print("Found")
+#         break
+#     i += 1
+# if flag :
+#     print("Not found") 
+
+
+# for i in range (1,6) :
+#     if i == 4 :
+#         break
+#     print(i)
+
+
+
+
 

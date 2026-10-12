@@ -844,7 +844,10 @@ match role:
 
 # question = 33
 
-transport = int(input("Enter transport type: "))
+transport = int(input("""Enter transport type:
+                                1 → Flight
+                                2 → Train
+                                3 → Bus """))
 
 match transport:
     case 1:
@@ -881,7 +884,11 @@ match transport:
 
 # question = 34 
 
-choice = int(input("Enter choice: "))
+choice = int(input("""Enter choice: 
+                            1 → Start Game
+                            2 → Load Game
+                            3 → Settings
+                            4 → Exit"""))
 
 match choice:
     case 1:
