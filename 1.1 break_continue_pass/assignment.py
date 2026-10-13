@@ -199,6 +199,201 @@ else:
 
 ## ####### OUTPUT = Else block 
 
+# question = 22 
+
+numbers  = input("Enter  number in a line with space : ").split()
+print(numbers)
+target = input("Enter target number : ")
+for num in numbers :
+    if num == target :
+        print("Found !! ")
+        break
+else :
+    print("Not Found !! ")
+
+
+# question = 23 
+
+string = input("Enter a string : ")
+target = input("Enter a target letter : ")
+for ch in string:
+    if ch == target :
+        print("Charecter exists ")
+        break
+else :
+    print("Charecter does not exist ")
+
+# question = 24 
+
+num = int(input("Enter a number : "))
+for i in range (2, num ):
+    if num % i == 0 :
+        print("Not prime !!")
+        break 
+else :
+    print("Prime !!")
+
+# question = 25 
+
+values = [2, 4, 6, 8]
+
+for value in values:
+    if value % 2 != 0:
+        print("Odd found")
+        break
+else:
+    print("All are even")
+
+############# OUTPUT == "All are even "
+
+# question = 27 
+
+count = 0 
+str = ""
+string = input("Enter a string : ")
+for ch in string :
+    if ch in str :
+        print(ch)
+        print("Repeated character found !! ")
+        break
+    str += ch
+else :
+    print("No Repeated Character !! ")
+
+# question = 28 
+
+for i in range(1, 4):
+    if i == 2:
+        pass
+    print(i)
+
+####### OUTPUT = 1,2,3  ################
+
+# question = 29 
+
+x = 10
+if x > 5:
+    pass
+print("Finished")
+
+############ OUTPUT = Finished ############
+
+# question = 30 
+
+for letter in "cat":
+    pass
+print("Loop ended")
+
+##### ############# OUTPUT = Loop ended ############
+
+# question = 31 
+
+for i in range (1, 6):
+    if i % 2 == 0 :
+        pass
+    print(i)
+
+# question = 32 
 
 
 
+
+
+# question = 33
+
+for i in range(1, 5):
+    if i == 3:
+        pass
+    print(i)
+
+
+##### ############# OUTPUT = 1,2,3,4   ########## 
+
+for i in range(1, 5):
+    if i == 3:
+        continue
+    print(i)
+
+##### ############# OUTPUT = 1,2, 4   ########## 
+
+# question = 34 
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+# question = 35 
+
+for i in range(1, 6):
+    if i == 2:
+        continue
+    if i == 4:
+        break
+    print(i)
+else:
+    print("Finished")
+
+##### OUTPUT = 1,3   #############
+
+# question = 36 
+
+list = input("Enter number in a line using space : ").split()
+target = input("Enter target number : ")
+for num in list :
+    if int(num) < 0 :
+        continue
+    if num == target :
+        print("Target found !!")
+        break
+else :
+    print("Target not found !!")
+
+# question = 37 
+
+list = input("Enter number in a line using space : ").split()
+for num in list :
+    if int(num) == 0 :
+        continue
+    if int(num) == -1 :
+        break
+    print(num)
+else :
+    print("All values processed")
+
+# question = 38 
+
+for row in range(1, 4):
+    for col in range(1, 4):
+        if col == 2:
+            continue
+        if row == 3:
+            break
+        print(row, col)
+    else:
+        print("Inner loop completed")
+
+######### OUTPUT = (1,1), (1,3) ,"All values processed", (2,1) , (2,3) ,"All values processed" ################
+
+# question = 39 
+
+list = input("Enter number in a line with space : ").split()
+for num in list :
+    if int(num) < -1 :
+            continue
+    if int(num) % 4 == 0 and int(num) % 6 == 0 :
+        print("Found , number is :",num )
+        break
+else :
+     print("No matching number exists.")
+
+# question = 40 
+
+# |1 | = | break |
+# | 2 | = | continue |
+# | 3 | = | for-else |
+# | 4 | = | pass |
+# | 5 | = | continue |
+# | 6 | = | break |
+# | 7 | = | for-else |
+# | 8 | = | pass |
