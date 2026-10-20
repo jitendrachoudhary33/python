@@ -172,6 +172,45 @@
 #     break 
 # print(f"Username = {username} and Password is {password}")
     
-# # question = 16 
+# # # question = 16 
+
+
+# while True :
+#     operator = int(input("""Enter opretor : 
+#                             1 => Addition 
+#                             2 => Substraction 
+#                             3 => Multiplication 
+#                             4 => Division 
+#                                 :: """))
+    
+#     match operator :
+#         case 1 :
+#             num1 = int(input("Enter first number : "))
+#             num2 = int(input("Enter second number : "))
+#             print(f"Addition is {num1+num2}")
+#         case 2 :
+#             num1 = int(input("Enter first number : "))
+#             num2 = int(input("Enter second number : "))
+#             print(f"Suxtraction is {num1-num2}")
+#         case 3 :
+#             num1 = int(input("Enter first number : "))
+#             num2 = int(input("Enter second number : "))
+#             print(f"Multiplication is {num1*num2}")
+#         case 4 :
+#             num1 = int(input("Enter first number : "))
+#             num2 = int(input("Enter second number : "))
+#             if num2 == 0 :
+#                 print("Division by zero rejected .")
+#             while True :
+#                 num1 = int(input("Enter first number : "))
+#                 if num1 == 0 :
+#                     print(f"Division is {num1/num2}")
+#                     break
+#                 break
+    
+    
+# # # question = 17 
+
+
 
 
